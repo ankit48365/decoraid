@@ -1,1 +1,1 @@
-# cpdec stands for Check Package Decorator :)
+# decoraid stands for Decorator Aid :)
