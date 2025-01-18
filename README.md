@@ -1,4 +1,4 @@
-<!-- decoraid stands for Decorator Aid :) -->
+# decoraid stands for Decorator Aid :) -->
 
 pip install decoraid
 decoraid --example  or decoraid --help
@@ -14,7 +14,7 @@ decoraid/
 ├── README.md
 
 
-<!-- sample usage: -->
+# sample usage: -->
 
 from decoraid.cpdec import check_package
 venv_path = "C:/projects/git/xxxx/.venv/" 
