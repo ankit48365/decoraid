@@ -3,8 +3,8 @@
 
 decoraid stands for Decorator Aid :) -->
 
-pip install decoraid
-decoraid --example  or decoraid --help
+    pip install decoraid
+    decoraid --example  or decoraid --help
 
 decoraid/
 ├── decoraid/
