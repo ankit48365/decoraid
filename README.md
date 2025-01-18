@@ -17,7 +17,8 @@ decoraid/
 ├── README.md
 
 
-# sample usage: -->
+sample usage: -->
+
 wrap the decorator around the function you want to test, provide the name of the package and the path to the virtual environment
 
     from decoraid.cpdec import check_package
