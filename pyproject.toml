@@ -12,8 +12,6 @@ repository = "https://github.com/ankit48365/decoraid"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-packages = [ { include = "decoraid" } ]
-
 [tool.poetry.dependencies]
 python = "^3.9"
 
