@@ -17,12 +17,17 @@ decoraid/
 # sample usage: -->
 
 from decoraid.cpdec import check_package
+
 venv_path = "C:/projects/git/xxxx/.venv/" 
 
 wrap the decorator around the function you want to test, provide the name of the package and the path to the virtual environment
+
 @check_package("pandas", venv_path)
+
 def test_pandas():
+
     print('test_cpdec')
 
 if __name__ == "__main__":
+
     test_pandas()
