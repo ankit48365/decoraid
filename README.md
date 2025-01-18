@@ -1,5 +1,5 @@
 [![Upload Python Package](https://github.com/ankit48365/decoraid/actions/workflows/python-publish.yml/badge.svg)](https://github.com/ankit48365/decoraid/actions/workflows/python-publish.yml)
-![Latest Release](https://img.shields.io/badge/release-v0.0.15-blue)
+![Latest Release](https://img.shields.io/badge/release-v0.0.16-blue)
 
 decoraid stands for Decorator Aid :) -->
 
