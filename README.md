@@ -1,7 +1,10 @@
-# decoraid stands for Decorator Aid :) -->
+[![Upload Python Package](https://github.com/ankit48365/decoraid/actions/workflows/python-publish.yml/badge.svg)](https://github.com/ankit48365/decoraid/actions/workflows/python-publish.yml)
+![Latest Release](https://img.shields.io/badge/release-v0.0.15-blue)
 
-pip install decoraid
-decoraid --example  or decoraid --help
+decoraid stands for Decorator Aid :) -->
+
+    pip install decoraid
+    decoraid --example  or decoraid --help
 
 decoraid/
 ├── decoraid/
@@ -14,7 +17,8 @@ decoraid/
 ├── README.md
 
 
-# sample usage: -->
+sample usage: -->
+
 wrap the decorator around the function you want to test, provide the name of the package and the path to the virtual environment
 
     from decoraid.cpdec import check_package
