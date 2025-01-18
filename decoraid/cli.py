@@ -2,7 +2,7 @@ import argparse
 # import os
 
 # # Hardcoded version information
-VERSION = "0.0.14"
+VERSION = "0.0.15"
 
 # # Hardcoded dependencies information
 # DEPENDENCIES = {
