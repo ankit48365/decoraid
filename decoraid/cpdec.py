@@ -37,3 +37,8 @@ def check_package(package: str, venv_path: str):
 
         return wrapper_check_package
     return decorator_check_package
+
+
+if __name__ == '__main__':
+    check_package()
+

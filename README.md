@@ -24,3 +24,10 @@ wrap the decorator around the function you want to test, provide the name of the
     if __name__ == "__main__":
     
         test_pandas()
+
+Versioning :
+
+0.0.1+ --> cpdec decorator added
+0.0.2+ --> trace decorator was added
+
+

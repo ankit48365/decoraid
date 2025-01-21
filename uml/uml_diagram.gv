@@ -1,0 +1,37 @@
+digraph G {
+concentrate=true;
+splines="ortho";
+rankdir="LR";
+subgraph legend{
+    rank = min;
+    label = "legend";
+    Legend [shape=none, margin=0, label = <
+        <table cellspacing="0" cellpadding="0" border="1"><tr><td>Code2flow Legend</td></tr><tr><td>
+        <table cellspacing="0">
+        <tr><td>Regular function</td><td width="50px" bgcolor='#cccccc'></td></tr>
+        <tr><td>Trunk function (nothing calls this)</td><td bgcolor='#966F33'></td></tr>
+        <tr><td>Leaf function (this calls nothing else)</td><td bgcolor='#6db33f'></td></tr>
+        <tr><td>Function call</td><td><font color='black'>&#8594;</font></td></tr>
+        </table></td></tr></table>
+        >];
+}node_913a3151 [label="0: (global)()" name="cli::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_39bd588e [label="36: main()" name="cli::main" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_e74fe73e [label="0: (global)()" name="cpdec::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_520dd3a0 [label="8: check_package()" name="cpdec::check_package" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_913a3151 -> node_39bd588e [color="#E69F00" penwidth="2"];
+node_e74fe73e -> node_520dd3a0 [color="#D55E00" penwidth="2"];
+subgraph cluster_7e35b6f5 {
+    node_39bd588e node_913a3151;
+    label="File: cli";
+    name="cli";
+    style="filled";
+    graph[style=dotted];
+};
+subgraph cluster_01d20b20 {
+    node_520dd3a0 node_e74fe73e;
+    label="File: cpdec";
+    name="cpdec";
+    style="filled";
+    graph[style=dotted];
+};
+}
