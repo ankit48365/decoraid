@@ -1,5 +1,5 @@
 [![Upload Python Package](https://github.com/ankit48365/decoraid/actions/workflows/python-publish.yml/badge.svg)](https://github.com/ankit48365/decoraid/actions/workflows/python-publish.yml)
-![Latest Release](https://img.shields.io/badge/release-v0.0.16-blue)
+![Latest Release](https://img.shields.io/badge/release-v0.0.21-blue)
 
 decoraid stands for Decorator Aid :) -->
 
@@ -27,7 +27,8 @@ wrap the decorator around the function you want to test, provide the name of the
 
 Versioning :
 
-0.0.1+ --> cpdec decorator added
-0.0.2+ --> trace decorator was added
+    0.0.1+ --> cpdec decorator added
+    
+    0.0.2+ --> trace decorator was added
 
 
